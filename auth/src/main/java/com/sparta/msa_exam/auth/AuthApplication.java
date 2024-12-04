@@ -1,13 +1,13 @@
-package com.sparta.msa_exam;
+package com.sparta.msa_exam.auth;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MsaExamApplication {
+public class AuthApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MsaExamApplication.class, args);
+		SpringApplication.run(AuthApplication.class, args);
 	}
 
 }
